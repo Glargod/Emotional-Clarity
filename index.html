@@ -67,37 +67,26 @@
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
         }
-        .flowchart, .timeline, .comparison-table, .triangular-diagram {
+        .definition {
             margin: 20px 0;
-            text-align: center;
-        }
-        .flowchart img, .timeline img, .triangular-diagram img {
-            max-width: 100%;
-            height: auto;
-        }
-        .comparison-table table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .comparison-table th, .comparison-table td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        .comparison-table th {
-            background-color: #3498db;
-            color: white;
-        }
-        .definition-card {
-            display: inline-block;
-            margin: 10px;
             padding: 20px;
             background-color: #ecf0f1;
             border-radius: 8px;
-            text-align: center;
+            text-align: left;
+            font-family: 'Garamond', serif;
+            font-size: 1.1em;
         }
-        .definition-card h3 {
+        .definition h3 {
             color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .definition p, .definition ul {
+            margin: 10px 0;
+        }
+        .definition ul {
+            list-style-type: disc;
+            padding-left: 20px;
         }
         .call-to-action {
             text-align: center;
@@ -118,13 +107,6 @@
             text-align: center;
             padding: 20px 0;
             margin-top: 40px;
-        }
-        .interactive {
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .interactive:hover {
-            transform: scale(1.05);
         }
         .author-note {
             font-style: italic;
@@ -153,10 +135,7 @@
         <p>In the fields of psychology, sociology, and ethics, the terms 'sympathy' and 'empathy' have long been used interchangeably, leading to significant conceptual and practical challenges. This ambiguity hinders clear communication and effective action in both clinical and societal contexts.</p>
         <p>Historically, 'empathy' (derived from the German <em>Einfühlung</em>, meaning 'feeling into') was meant to capture a broad range of emotional and cognitive responses. However, its application has become muddled, often conflating distinct processes.</p>
         <p>This lack of precision affects therapeutic interventions, policy-making, and interpersonal relationships, where understanding the nuances of emotional responses is critical.</p>
-        <div class="flowchart">
-            <img src="flowchart-image-url.jpg" alt="Flowchart of Sympathy and Empathy Overlap">
-        </div>
-        <blockquote class="interactive" onclick="alert('The ambiguity in emotional terminology is not just a linguistic issue; it impacts how we respond to human suffering. – Robert Charest')">
+        <blockquote>
             <p>"The ambiguity in emotional terminology is not just a linguistic issue; it impacts how we respond to human suffering." – Robert Charest</p>
         </blockquote>
         <p class="author-note">This work was developed with the assistance of AI models Grok and Gemini, who provided valuable insights and refinements to the conceptual framework.</p>
@@ -167,29 +146,7 @@
         <p>However, psychological research in the late 20th century split 'empathy' into 'cognitive empathy' (understanding) and 'emotional empathy' (sharing feelings), further complicating the terminology.</p>
         <p>This split, while academically motivated, has led to widespread misunderstanding. For example, in everyday language, 'empathy' is often used to mean both understanding and feeling, blurring the lines between cognitive and emotional processes.</p>
         <p>The result is a lack of clarity in clinical settings, where precise terminology is essential for diagnosing and treating emotional disorders, and in societal contexts, where policy responses to crises require distinct emotional frameworks.</p>
-        <div class="timeline">
-            <img src="timeline-image-url.jpg" alt="Timeline of Empathy and Sympathy Evolution">
-        </div>
-        <div class="comparison-table">
-            <table>
-                <tr>
-                    <th>Term</th>
-                    <th>Traditional Definition</th>
-                    <th>Modern Confusion</th>
-                </tr>
-                <tr>
-                    <td>Sympathy</td>
-                    <td>Feeling sorrow or concern for another.</td>
-                    <td>Often used interchangeably with empathy.</td>
-                </tr>
-                <tr>
-                    <td>Empathy</td>
-                    <td>Understanding another's perspective.</td>
-                    <td>Split into cognitive and emotional components, leading to overlap.</td>
-                </tr>
-            </table>
-        </div>
-        <blockquote class="interactive" onclick="alert('The term \'empathy\' has become a catch-all, losing its precision. – Robert Charest, with insights from Grok and Gemini')">
+        <blockquote>
             <p>"The term 'empathy' has become a catch-all, losing its precision." – Robert Charest, with insights from Grok and Gemini</p>
         </blockquote>
     </div>
@@ -199,31 +156,32 @@
         <h3>Sympathy</h3>
         <p>"The self-emotional response to an outside event. It is the internal feeling of concern or sorrow triggered by another person's situation."</p>
         <p>Example: "I feel sorry for your loss."</p>
-        <div class="definition-card interactive" onclick="alert('Sympathy: The self-emotional response to an outside event. Example: \"I feel sorry for your loss.\" – Robert Charest')">
-            <h3>Sympathy</h3>
-            <p>The self-emotional response to an outside event.</p>
-            <p>Example: "I feel sorry for your loss."</p>
-        </div>
         <h3>Empathy</h3>
         <p>"The awareness that an outside event created an outside emotion. It is the cognitive recognition of another person's emotional state without necessarily sharing it."</p>
         <p>Example: "I understand why you feel devastated."</p>
-        <div class="definition-card interactive" onclick="alert('Empathy: The awareness that an outside event created an outside emotion. Example: \"I understand why you feel devastated.\" – Robert Charest, assisted by Grok and Gemini')">
-            <h3>Empathy</h3>
-            <p>The awareness that an outside event created an outside emotion.</p>
-            <p>Example: "I understand why you feel devastated."</p>
-        </div>
         <h3>Koinpathy</h3>
-        <p>"Experiencing a mirrored emotion from an outside event within a communal context, coupled with a collective motivational drive to engage in compassionate action."</p>
-        <p>Example: "We all feel your pain and are motivated to help rebuild together."</p>
-        <div class="definition-card interactive" onclick="alert('Koinpathy: Experiencing a mirrored emotion from an outside event within a communal context, coupled with a collective motivational drive to engage in compassionate action. Example: \"We all feel your pain and are motivated to help rebuild together.\" – Robert Charest, with contributions from Grok and Gemini')">
-            <h3>Koinpathy</h3>
-            <p>Experiencing a mirrored emotion from an outside event within a communal context, coupled with a collective motivational drive to engage in compassionate action.</p>
-            <p>Example: "We all feel your pain and are motivated to help rebuild together."</p>
+        <div class="definition">
+            <h3>koinpathy /ˈkɔɪnˌpæθi/ *noun*</h3>
+            <p>**Etymology:** From Ancient Greek *koinos* (κοινός, “shared, common”) + *pathos* (πάθος, “feeling, suffering”). Coined by **Robert Charest** (2025).</p>
+            <p>**Definition:**</p>
+            <ol>
+                <li>**A shared emotional state among individuals that generates a sense of mutual identification and collective responsibility for one another’s wellbeing.**</li>
+                <li>**An evolved form of empathy** in which understanding and feeling another’s experience are accompanied by an intrinsic impulse toward *communal action or cooperative alignment*.</li>
+            </ol>
+            <p>**Distinctions:**</p>
+            <ul>
+                <li>*Sympathy* expresses **concern** for another’s feelings.</li>
+                <li>*Empathy* conveys **understanding or vicarious feeling** of those emotions.</li>
+                <li>*Koinpathy* embodies **shared experience and cooperative response**, transforming awareness into *collective intent or action*.</li>
+            </ul>
+            <p>**Example sentences:**</p>
+            <ul>
+                <li>*The disaster relief teams acted out of koinpathy, not obligation — they truly shared the victims’ grief and worked as one body to heal it.*</li>
+                <li>*Koinpathy in a classroom fosters unity; students don’t just relate to each other’s struggles, they move together toward solutions.*</li>
+            </ul>
+            <p>**Related forms:** *koinpathic* (adj.), *koinpathically* (adv.).</p>
         </div>
-        <div class="triangular-diagram">
-            <img src="triangular-diagram-image-url.jpg" alt="Triangular Diagram of Sympathy, Empathy, and Koinpathy">
-        </div>
-        <blockquote class="interactive" onclick="alert('Koinpathy is the missing link in our emotional lexicon, bridging understanding and action. – Robert Charest, developed with Grok and Gemini')">
+        <blockquote>
             <p>"Koinpathy is the missing link in our emotional lexicon, bridging understanding and action." – Robert Charest, developed with Grok and Gemini</p>
         </blockquote>
     </div>
@@ -251,5 +209,4 @@
         });
     </script>
 </body>
-
-          </html>
+</html>
